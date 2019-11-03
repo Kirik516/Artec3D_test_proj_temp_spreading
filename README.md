@@ -25,5 +25,5 @@
 > 
 > You can find an example of what it should look like in the **heatmap.mp4** video.
 
-### Мои замечания
+### Замечания
 Забавная тема, видео файл сломанный.
