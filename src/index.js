@@ -85,7 +85,7 @@ function addDirectionalLight( x, y, z, color, intensity, scene ) {
 
 function setupControls() {
   const controls = new OrbitControls(camera, renderer.domElement);
-  controls.target.y = 2;
+  controls.target.y = camera.position.y;
   controls.screenSpacePanning = true;
   return controls;
 }
