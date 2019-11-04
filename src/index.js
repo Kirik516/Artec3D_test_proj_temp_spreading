@@ -68,6 +68,10 @@ function setupScene() {
   plane.rotation.x = - Math.PI / 2;
   plane.position.y = - 0.5;
   scene.add( plane );
+  
+  // x, y, z
+  const axesHelp = new THREE.AxesHelper(1);
+  scene.add(axesHelp);
 
   return scene;
 
